@@ -1,0 +1,51 @@
+# Geotechnical Engineering — Mullingar
+
+> Geotechnical engineering services in Mullingar, Ireland.
+
+## Services
+- [Anchors](https://mullingar.geotechnical-engineering.co/anchors/)
+- [Atterberg Limits](https://mullingar.geotechnical-engineering.co/atterberg-limits/)
+- [Cbr Road](https://mullingar.geotechnical-engineering.co/cbr-road/)
+- [Cpt Test](https://mullingar.geotechnical-engineering.co/cpt-test/)
+- [Deep Excavations](https://mullingar.geotechnical-engineering.co/deep-excavations/)
+- [Excavation Monitoring](https://mullingar.geotechnical-engineering.co/excavation-monitoring/)
+- [Excavations](https://mullingar.geotechnical-engineering.co/excavations/)
+- [Flexible Pavement](https://mullingar.geotechnical-engineering.co/flexible-pavement/)
+- [Footings](https://mullingar.geotechnical-engineering.co/footings/)
+- [Foundations](https://mullingar.geotechnical-engineering.co/foundations/)
+- [Grain Size](https://mullingar.geotechnical-engineering.co/grain-size/)
+- [Ground Improvement](https://mullingar.geotechnical-engineering.co/ground-improvement/)
+- [Grouting](https://mullingar.geotechnical-engineering.co/grouting/)
+- [In Situ Permeability](https://mullingar.geotechnical-engineering.co/in-situ-permeability/)
+- [Investigation](https://mullingar.geotechnical-engineering.co/investigation/)
+- [Lab In Situ](https://mullingar.geotechnical-engineering.co/lab-in-situ/)
+- [Laboratory](https://mullingar.geotechnical-engineering.co/laboratory/)
+- [Liquefaction](https://mullingar.geotechnical-engineering.co/liquefaction/)
+- [Masw](https://mullingar.geotechnical-engineering.co/masw/)
+- [Mat Foundations](https://mullingar.geotechnical-engineering.co/mat-foundations/)
+- [Piles](https://mullingar.geotechnical-engineering.co/piles/)
+- [Proctor Tests](https://mullingar.geotechnical-engineering.co/proctor-tests/)
+- [Resistivity](https://mullingar.geotechnical-engineering.co/resistivity/)
+- [Retaining Walls](https://mullingar.geotechnical-engineering.co/retaining-walls/)
+- [Rigid Pavement](https://mullingar.geotechnical-engineering.co/rigid-pavement/)
+- [Road Geotechnics](https://mullingar.geotechnical-engineering.co/road-geotechnics/)
+- [Sand Cone Density](https://mullingar.geotechnical-engineering.co/sand-cone-density/)
+- [Seismic](https://mullingar.geotechnical-engineering.co/seismic/)
+- [Seismic Isolation](https://mullingar.geotechnical-engineering.co/seismic-isolation/)
+- [Seismic Microzonation](https://mullingar.geotechnical-engineering.co/seismic-microzonation/)
+- [Seismic Refraction](https://mullingar.geotechnical-engineering.co/seismic-refraction/)
+- [Slope Stability](https://mullingar.geotechnical-engineering.co/slope-stability/)
+- [Slopes](https://mullingar.geotechnical-engineering.co/slopes/)
+- [Soft Ground Tunnels](https://mullingar.geotechnical-engineering.co/soft-ground-tunnels/)
+- [Spt Drilling](https://mullingar.geotechnical-engineering.co/spt-drilling/)
+- [Stone Columns](https://mullingar.geotechnical-engineering.co/stone-columns/)
+- [Test Pits](https://mullingar.geotechnical-engineering.co/test-pits/)
+- [Triaxial](https://mullingar.geotechnical-engineering.co/triaxial/)
+- [Vibrocompaction](https://mullingar.geotechnical-engineering.co/vibrocompaction/)
+
+## Contact
+- Website: https://mullingar.geotechnical-engineering.co/
+
+## About
+This site provides geotechnical engineering services in Mullingar, Ireland.
+Compliant with local and international standards (ASTM, ISO, country-specific norms).
