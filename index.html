@@ -71,14 +71,31 @@ details summary{font-weight:600;color:#0C1B33;list-style:none}
 .card-links a{display:block;color:#D4A017;font-size:.85rem;font-weight:600;padding:.2rem 0;line-height:1.45}
 .card-viewall{display:inline-block;color:#EAB308;font-size:.72rem;font-weight:700;letter-spacing:.08em;margin-top:.8rem}
 .hero .tagline{font-size:1rem;opacity:.92;margin-bottom:1.5rem;max-width:560px}.hero h1{font-size:1.6rem}
-.hero h1{font-family:'Poppins',sans-serif;font-size:clamp(1.9rem,3.8vw,2.8rem);font-weight:700;letter-spacing:-.01em;margin-bottom:.9rem;line-height:1.15}</style><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#831843"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head><body>
+.hero h1{font-family:'Poppins',sans-serif;font-size:clamp(1.9rem,3.8vw,2.8rem);font-weight:700;letter-spacing:-.01em;margin-bottom:.9rem;line-height:1.15}</style><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#831843"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><style id="minimal-fix-v5">
+/* Sticky para navbar específicos (NO header.hero) */
+.topbar, .navbar, .header-top, .main-header {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1010 !important;
+}
+header.hero, .hero { position: relative !important; }
+/* Dropdowns por encima del hero */
+.dd, .has-dd .dd, .nav-item .dd {
+  z-index: 1100 !important;
+}
+/* Leaflet contained */
+.leaflet-pane { z-index: 400 !important; }
+.leaflet-control { z-index: 800 !important; }
+.leaflet-container { z-index: 1 !important; }
+</style>
+</head><body>
 
 <div class="topbar">
     <div class="logo-area">
         <div class="logo-text"><div class="main">GEOTECHNICAL ENGINEERING</div><div class="sub">MULLINGAR</div></div>
     </div>
     <div class="nav">
-        <div class="nav-item has-dd"><a href="/investigation/" class="nav-cat-link" style="color:inherit;text-decoration:none">Investigation</a> <span>▾</span><div class="dd"><a href="/cpt-test/">CPT (Cone Penetration Test)</a></div></div><div class="nav-item has-dd"><a href="/lab-in-situ/" class="nav-cat-link" style="color:inherit;text-decoration:none">In-Situ Testing</a> <span>▾</span><div class="dd"><a href="/sand-cone-density/">Field density test (sand cone method)</a></div></div><div class="nav-item has-dd"><a href="/laboratory/" class="nav-cat-link" style="color:inherit;text-decoration:none">Laboratory</a> <span>▾</span><div class="dd"><a href="/grain-size/">Grain size analysis (sieve + hydrometer)</a><a href="/atterberg-limits/">Atterberg limits</a></div></div><div class="nav-item has-dd"><a href="/foundations/" class="nav-cat-link" style="color:inherit;text-decoration:none">Foundations</a> <span>▾</span><div class="dd"><a href="/piles/">Pile foundation design</a></div></div><div class="nav-item has-dd"><a href="/slopes/" class="nav-cat-link" style="color:inherit;text-decoration:none">Slopes & Walls</a> <span>▾</span><div class="dd"><a href="/slope-stability/">Slope stability analysis</a><a href="/anchors/">Active/passive anchor design</a><a href="/retaining-walls/">Retaining wall design</a></div></div><div class="nav-item has-dd"><a href="/ground-improvement/" class="nav-cat-link" style="color:inherit;text-decoration:none">Ground improvement</a> <span>▾</span><div class="dd"><a href="/stone-columns/">Stone column design</a><a href="/vibrocompaction/">Vibrocompaction design</a></div></div><div class="nav-item has-dd"><a href="/excavations/" class="nav-cat-link" style="color:inherit;text-decoration:none">Underground Excavations</a> <span>▾</span><div class="dd"><a href="/soft-ground-tunnels/">Geotechnical analysis for soft soil tunnels</a><a href="/deep-excavations/">Geotechnical design of deep excavations</a><a href="/excavation-monitoring/">Geotechnical excavation monitoring</a></div></div><div class="nav-item has-dd"><a href="/road-geotechnics/" class="nav-cat-link" style="color:inherit;text-decoration:none">Roadway</a> <span>▾</span><div class="dd"><a href="/flexible-pavement/">Flexible pavement design</a><a href="/rigid-pavement/">Rigid pavement design</a><a href="/cbr-road/">CBR study for road design</a></div></div><div class="nav-item has-dd"><a href="/seismic/" class="nav-cat-link" style="color:inherit;text-decoration:none">Seismic</a> <span>▾</span><div class="dd"><a href="/liquefaction/">Soil liquefaction analysis</a><a href="/seismic-isolation/">Base isolation seismic design</a><a href="/seismic-microzonation/">Seismic microzonation</a></div></div>
+        <div class="nav-item has-dd"><a href="/investigation/" class="nav-cat-link" style="color:inherit;text-decoration:none">Investigation</a> <span>▾</span><div class="dd"><a href="/cpt-test/">CPT (Cone Penetration Test)</a></div></div><div class="nav-item has-dd"><a href="/lab-in-situ/" class="nav-cat-link" style="color:inherit;text-decoration:none">In-Situ</a> <span>▾</span><div class="dd"><a href="/sand-cone-density/">Field density test (sand cone method)</a></div></div><div class="nav-item has-dd"><a href="/laboratory/" class="nav-cat-link" style="color:inherit;text-decoration:none">Laboratory</a> <span>▾</span><div class="dd"><a href="/grain-size/">Grain size analysis (sieve + hydrometer)</a><a href="/atterberg-limits/">Atterberg limits</a></div></div><div class="nav-item has-dd"><a href="/foundations/" class="nav-cat-link" style="color:inherit;text-decoration:none">Foundations</a> <span>▾</span><div class="dd"><a href="/piles/">Pile foundation design</a></div></div><div class="nav-item has-dd"><a href="/slopes/" class="nav-cat-link" style="color:inherit;text-decoration:none">Slopes & Walls</a> <span>▾</span><div class="dd"><a href="/slope-stability/">Slope stability analysis</a><a href="/anchors/">Active/passive anchor design</a><a href="/retaining-walls/">Retaining wall design</a></div></div><div class="nav-item has-dd"><a href="/ground-improvement/" class="nav-cat-link" style="color:inherit;text-decoration:none">Improvement</a> <span>▾</span><div class="dd"><a href="/stone-columns/">Stone column design</a><a href="/vibrocompaction/">Vibrocompaction design</a></div></div><div class="nav-item has-dd"><a href="/excavations/" class="nav-cat-link" style="color:inherit;text-decoration:none">Excavations</a> <span>▾</span><div class="dd"><a href="/soft-ground-tunnels/">Geotechnical analysis for soft soil tunnels</a><a href="/deep-excavations/">Geotechnical design of deep excavations</a><a href="/excavation-monitoring/">Geotechnical excavation monitoring</a></div></div><div class="nav-item has-dd"><a href="/road-geotechnics/" class="nav-cat-link" style="color:inherit;text-decoration:none">Roadway</a> <span>▾</span><div class="dd"><a href="/flexible-pavement/">Flexible pavement design</a><a href="/rigid-pavement/">Rigid pavement design</a><a href="/cbr-road/">CBR study for road design</a></div></div><div class="nav-item has-dd"><a href="/seismic/" class="nav-cat-link" style="color:inherit;text-decoration:none">Seismic</a> <span>▾</span><div class="dd"><a href="/liquefaction/">Soil liquefaction analysis</a><a href="/seismic-isolation/">Base isolation seismic design</a><a href="/seismic-microzonation/">Seismic microzonation</a></div></div>
     </div>
 </div>
 
@@ -105,9 +122,9 @@ details summary{font-weight:600;color:#0C1B33;list-style:none}
         <div class="svc-card">
             <div class="card-img" style="background-image:url('/img/densidad-cono-arena-1.webp')"></div>
             <div class="card-body">
-                <h3>In-Situ Testing</h3>
+                <h3>In-Situ</h3>
                 <div class="card-links"><a href="/sand-cone-density/">Field density test (sand cone method) ›</a></div>
-                <a class="card-viewall" href="#laboratorio-in-situ">VIEW ALL IN-SITU TESTING ›</a>
+                <a class="card-viewall" href="#laboratorio-in-situ">VIEW ALL IN-SITU ›</a>
             </div>
         </div>
         <div class="svc-card">
@@ -137,17 +154,17 @@ details summary{font-weight:600;color:#0C1B33;list-style:none}
         <div class="svc-card">
             <div class="card-img" style="background-image:url('/img/columnas-grava-1.webp')"></div>
             <div class="card-body">
-                <h3>Ground improvement</h3>
+                <h3>Improvement</h3>
                 <div class="card-links"><a href="/stone-columns/">Stone column design ›</a><a href="/vibrocompaction/">Vibrocompaction design ›</a></div>
-                <a class="card-viewall" href="#mejoramiento">VIEW ALL GROUND IMPROVEMENT ›</a>
+                <a class="card-viewall" href="#mejoramiento">VIEW ALL IMPROVEMENT ›</a>
             </div>
         </div>
         <div class="svc-card">
             <div class="card-img" style="background-image:url('/img/tuneles-suelo-blando-1.webp')"></div>
             <div class="card-body">
-                <h3>Underground Excavations</h3>
+                <h3>Excavations</h3>
                 <div class="card-links"><a href="/soft-ground-tunnels/">Geotechnical analysis for soft soil tunnels ›</a><a href="/deep-excavations/">Geotechnical design of deep excavations ›</a><a href="/excavation-monitoring/">Geotechnical excavation monitoring ›</a></div>
-                <a class="card-viewall" href="#excavaciones-subterraneo">VIEW ALL UNDERGROUND EXCAVATIONS ›</a>
+                <a class="card-viewall" href="#excavaciones-subterraneo">VIEW ALL EXCAVATIONS ›</a>
             </div>
         </div>
         <div class="svc-card">
@@ -185,7 +202,8 @@ details summary{font-weight:600;color:#0C1B33;list-style:none}
 <section class="block"><div class="container"><h2>Q&A</h2><details><summary>What does a soil mechanics study cost for a single house site in Mullingar?</summary><p>For a standard residential plot, the study typically runs between €2,980 and €4,760 depending on access, number of boreholes, and the lab tests required. Sites with difficult access or suspected peat will be at the upper end.</p></details><details><summary>How long does the full study take from start to report?</summary><p>Field work usually takes one to two days. Laboratory testing requires seven to ten working days for strength and consolidation tests. The final report is delivered within two weeks of site work completion in most cases.</p></details><details><summary>Is a soil mechanics study mandatory for planning permission?</summary><p>Westmeath County Council requests a site-specific geotechnical report for most new builds, extensions on poor ground, and all commercial developments. It is not optional if the planner has flagged ground conditions as a concern.</p></details><details><summary>What if you find peat on my site?</summary><p>We quantify the thickness and depth of the peat, assess its compressibility, and recommend either removal and replacement, surcharging, or a piled solution. The report gives the structural engineer the design parameters needed for each option.</p></details></div></section>
 
 
-    <section class="block map-block" style="padding:3rem 1.5rem">
+    <section class="block video-block" style="padding:2rem 1.5rem"><div style="max-width:720px;margin:0 auto"><h2 style="margin-bottom:1rem;font-weight:700;font-size:1.4rem">Explanatory video</h2><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px"><iframe src="https://www.youtube.com/embed/V1m3cB-Aqy8" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" loading="lazy" allowfullscreen></iframe></div></div></section>
+<section class="block map-block" style="padding:3rem 1.5rem">
       <div style="max-width:1200px;margin:0 auto">
         <h2 style="margin-bottom:.8rem;font-weight:700">Location and service area</h2>
         <p style="margin-bottom:1rem;color:#555">We serve projects across Mullingar and its metropolitan area.</p>
@@ -195,7 +213,7 @@ details summary{font-weight:600;color:#0C1B33;list-style:none}
         <link rel="stylesheet" href="/css/leaflet.css">
         <script src="/js/leaflet.js"></script>
         <script>
-        (function(){
+(function(){
           var m=L.map("map_b5765b",{zoomControl:true,attributionControl:true}).setView([53.5229,-7.3457],11);
           L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png",{
             attribution:"&copy; OpenStreetMap contributors &copy; CARTO",maxZoom:19,subdomains:"abcd"
@@ -209,6 +227,6 @@ details summary{font-weight:600;color:#0C1B33;list-style:none}
       </div>
     </section>
 
-<section class="block video-block" style="padding:2rem 1.5rem"><div style="max-width:720px;margin:0 auto"><h2 style="margin-bottom:1rem;font-weight:700;font-size:1.4rem">Explanatory video</h2><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px"><iframe src="https://www.youtube.com/embed/V1m3cB-Aqy8" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" loading="lazy" allowfullscreen></iframe></div></div></section><footer style="background:#0C1B33;color:rgba(255,255,255,.85);padding:2rem 1.5rem;text-align:center;font-size:.92rem">Mullingar, Ireland · <a href="mailto:contact@geotechnical-engineering.co" style="color:#FFF;text-decoration:underline">contact@geotechnical-engineering.co</a><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>References:</strong> <a href="https://www.nsai.ie/" rel="nofollow noopener" target="_blank">NSAI Standards</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocode 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotechnical</a></div><div class="updated-info" data-updated="2026-03-08" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Last updated: 2026-03-08</div></footer>
+<footer style="background:#0C1B33;color:rgba(255,255,255,.85);padding:2rem 1.5rem;text-align:center;font-size:.92rem">Mullingar, Ireland · <a href="mailto:contact@geotechnical-engineering.co" style="color:#FFF;text-decoration:underline">contact@geotechnical-engineering.co</a><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>References:</strong> <a href="https://www.nsai.ie/" rel="nofollow noopener" target="_blank">NSAI Standards</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocode 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotechnical</a></div><div class="updated-info" data-updated="2026-03-08" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Last updated: 2026-03-08</div></footer>
 
 </body></html>
